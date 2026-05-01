@@ -5,6 +5,7 @@ import LightboxViewer from './sections/LightboxViewer.jsx'
 import ComplainForm from './sections/ComplainForm.jsx'
 import BackgroundColor from './sections/BackgroundColor.jsx'
 import MarkdownToHtml from './sections/MarkdownToHtml.jsx'
+import PalidromeChecker from './sections/PalidromeChecker.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <ComplainForm />
       <BackgroundColor />
       <MarkdownToHtml />
+      <PalidromeChecker />
     </div>
   )
 }
