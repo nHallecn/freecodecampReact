@@ -7,27 +7,27 @@ const ComplainForm = () => {
     <form id="form">
         <fieldset id="personal-info">
             <div>
-                <label for="full-name">Full Name:</label>
+                <label htmlFor="full-name">Full Name:</label>
                 <input type="text" id="full-name" name="full-name" placeholder="John Doe" />
             </div>
 
             <div>
-                <label for="email">Email Address:</label>
+                <label htmlFor="email">Email Address:</label>
                 <input type="email" id="email" name="email" placeholder="example@domain.com" />
             </div>
         </fieldset>
         <hr />
         <fieldset id="product-info">
             <div>
-                <label for="order-no">Order No:</label>
+                <label htmlFor="order-no">Order No:</label>
                 <input type="text" id="order-no" name="order-no" placeholder="2024######" />
             </div>
             <div>
-                <label for="product-code">Product Code:</label>
+                <label htmlFor="product-code">Product Code:</label>
                 <input type="text" id="product-code" name="product-code" placeholder="XX##-X###-XX#" />
             </div>
             <div>
-                <label for="quantity">Quantity:</label>
+                <label htmlFor="quantity">Quantity:</label>
                 <input type="number" id="quantity" name="quantity" min="1" />
             </div>
         </fieldset>
@@ -36,22 +36,22 @@ const ComplainForm = () => {
             <legend>Complaint Reason:</legend>
             <div>
                 <input type="checkbox" id="damaged-product" name="complaint" value="damaged-product" />
-                <label for="damaged-product">Damaged Product</label>
+                <label htmlFor="damaged-product">Damaged Product</label>
             </div>
 
             <div>
                 <input type="checkbox" id="nonconforming-product" name="complaint" value="nonconforming-product" />
-                <label for="nonconforming-product">Nonconforming Product</label>
+                <label htmlFor="nonconforming-product">Nonconforming Product</label>
             </div>
 
             <div>
                 <input type="checkbox" id="delayed-dispatch" name="complaint" value="delayed-dispatch" />
-                <label for="delayed-dispatch">Delayed Dispatch</label>
+                <label htmlFor="delayed-dispatch">Delayed Dispatch</label>
             </div>
 
             <div>
                 <input type="checkbox" id="other-complaint" name="complaint" value="other" />
-                <label for="other-complaint">Other</label>
+                <label htmlFor="other-complaint">Other</label>
             </div>
         </fieldset>
 
@@ -64,13 +64,13 @@ const ComplainForm = () => {
         <fieldset id="solutions-group">
             <legend>Desired Solution</legend>
             <input type="radio" name="solutions" id="refund" value="refund" />
-            <label for="refund">Refund</label>
+            <label htmlFor="refund">Refund</label>
 
             <input type="radio" name="solutions" id="exchange" value="exchange" />
-            <label for="exchange">Exchange</label>
+            <label htmlFor="exchange">Exchange</label>
 
             <input type="radio" name="solutions" id="other-solution" value="other" />
-            <label for="other-solution">Other</label>
+            <label htmlFor="other-solution">Other</label>
         </fieldset>
 
         <fieldset id="solution-description-container">

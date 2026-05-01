@@ -4,6 +4,7 @@ import RealTimeCounter from './sections/RealTimeCounter.jsx'
 import LightboxViewer from './sections/LightboxViewer.jsx'
 import ComplainForm from './sections/ComplainForm.jsx'
 import BackgroundColor from './sections/BackgroundColor.jsx'
+import MarkdownToHtml from './sections/MarkdownToHtml.jsx'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <LightboxViewer />
       <ComplainForm />
       <BackgroundColor />
+      <MarkdownToHtml />
     </div>
   )
 }
