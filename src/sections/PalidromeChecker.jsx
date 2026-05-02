@@ -5,7 +5,6 @@ const PalindromeChecker = () => {
   const [result, setResult] = useState('');
 
   const handleCheck = () => {
-    // textInput is already the value (string), so we use it directly
     const value = textInput.trim();
 
     if (value === "") {
@@ -13,11 +12,9 @@ const PalindromeChecker = () => {
       return;
     }
 
-    // Logic for cleaning and reversing the string
     const cleaned = value.replace(/[^a-z0-9]/gi, "").toLowerCase();
     const reversed = cleaned.split("").reverse().join("");
 
-    // Determine result message
     if (cleaned === reversed) {
       setResult(`"${value}" is a palindrome.`);
     } else {

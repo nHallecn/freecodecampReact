@@ -6,6 +6,7 @@ import ComplainForm from './sections/ComplainForm.jsx'
 import BackgroundColor from './sections/BackgroundColor.jsx'
 import MarkdownToHtml from './sections/MarkdownToHtml.jsx'
 import PalidromeChecker from './sections/PalidromeChecker.jsx'
+import BookmarkManager from './sections/BookmarkManager.jsx'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <BackgroundColor />
       <MarkdownToHtml />
       <PalidromeChecker />
+      <BookmarkManager />
     </div>
   )
 }
