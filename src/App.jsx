@@ -7,6 +7,7 @@ import BackgroundColor from './sections/BackgroundColor.jsx'
 import MarkdownToHtml from './sections/MarkdownToHtml.jsx'
 import PalidromeChecker from './sections/PalidromeChecker.jsx'
 import BookmarkManager from './sections/BookmarkManager.jsx'
+import GithubUserFinder from './sections/GithubUserFinder.jsx'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <MarkdownToHtml />
       <PalidromeChecker />
       <BookmarkManager />
+      <GithubUserFinder />
     </div>
   )
 }

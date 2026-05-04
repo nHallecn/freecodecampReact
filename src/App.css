@@ -66,3 +66,11 @@ textarea {
   background-color: greenyellow;
   color:rgba(0, 0, 0, 0.35);
 }
+
+section {
+  margin-top: 60px;
+  border: 2px solid goldenrod;;
+padding: 30px;
+font-family: Arial, sans-serif;
+border-radius: 8px;
+}
