@@ -9,6 +9,7 @@ import PalidromeChecker from './sections/PalidromeChecker.jsx'
 import BookmarkManager from './sections/BookmarkManager.jsx'
 import GithubUserFinder from './sections/GithubUserFinder.jsx'
 import Counter from './sections/Counter.jsx'
+import ToDoList from './sections/ToDoList.jsx'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <BookmarkManager />
       <GithubUserFinder />
       <Counter />
+      <ToDoList />
     </div>
   )
 }
