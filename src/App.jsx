@@ -8,6 +8,7 @@ import MarkdownToHtml from './sections/MarkdownToHtml.jsx'
 import PalidromeChecker from './sections/PalidromeChecker.jsx'
 import BookmarkManager from './sections/BookmarkManager.jsx'
 import GithubUserFinder from './sections/GithubUserFinder.jsx'
+import Counter from './sections/Counter.jsx'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <PalidromeChecker />
       <BookmarkManager />
       <GithubUserFinder />
+      <Counter />
     </div>
   )
 }
