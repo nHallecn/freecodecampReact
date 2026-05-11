@@ -10,6 +10,7 @@ import BookmarkManager from './sections/BookmarkManager.jsx'
 import GithubUserFinder from './sections/GithubUserFinder.jsx'
 import Counter from './sections/Counter.jsx'
 import ToDoList from './sections/ToDoList.jsx'
+import Calculator from './sections/Calculator.jsx'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <GithubUserFinder />
       <Counter />
       <ToDoList />
+      <Calculator />
     </div>
   )
 }
