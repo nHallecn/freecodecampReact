@@ -45,7 +45,7 @@ const Calculator = () => {
     }}
         >
           {buttons.map((b)=>(
-            <button onClick={()=>handleChange(b)}> {b} </button>
+            <button key={b} onClick={()=>handleChange(b)}> {b} </button>
         ))}  
         </div>
         

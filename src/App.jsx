@@ -11,6 +11,7 @@ import GithubUserFinder from './sections/GithubUserFinder.jsx'
 import Counter from './sections/Counter.jsx'
 import ToDoList from './sections/ToDoList.jsx'
 import Calculator from './sections/Calculator.jsx'
+import WeatherApp from './sections/WeatherApp.jsx'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Counter />
       <ToDoList />
       <Calculator />
+      <WeatherApp />
     </div>
   )
 }
